@@ -5,10 +5,7 @@ from detectron2 import model_zoo
 from PIL import Image
 import numpy as np
 
-from util import visualize, set_background
-
-
-set_background('./bg.png')
+from util import visualize
 
 
 # set title
